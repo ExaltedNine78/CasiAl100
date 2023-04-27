@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2580CA629F86E8B00225B79 /* NuevoElemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2580CA529F86E8B00225B79 /* NuevoElemento.swift */; };
+		A27A8CAF29E8915E00E94DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27A8CAE29E8915E00E94DFF /* AppDelegate.swift */; };
+		A27A8CB129E8915E00E94DFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27A8CB029E8915E00E94DFF /* SceneDelegate.swift */; };
+		A27A8CB329E8915E00E94DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27A8CB229E8915E00E94DFF /* ViewController.swift */; };
+		A27A8CB629E8915E00E94DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27A8CB429E8915E00E94DFF /* Main.storyboard */; };
+		A27A8CB829E8916000E94DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27A8CB729E8916000E94DFF /* Assets.xcassets */; };
+		A27A8CBB29E8916000E94DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27A8CB929E8916000E94DFF /* LaunchScreen.storyboard */; };
+		A2DE5CB429F08C5B0087D8D5 /* TableViewControllerEasyParking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DE5CB329F08C5B0087D8D5 /* TableViewControllerEasyParking.swift */; };
+		A2DE5CB629F08C720087D8D5 /* TableViewCellEasyParking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DE5CB529F08C720087D8D5 /* TableViewCellEasyParking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2580CA529F86E8B00225B79 /* NuevoElemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoElemento.swift; sourceTree = "<group>"; };
+		A27A8CAB29E8915E00E94DFF /* easyParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27A8CAE29E8915E00E94DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27A8CB029E8915E00E94DFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27A8CB229E8915E00E94DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27A8CB529E8915E00E94DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27A8CB729E8916000E94DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27A8CBA29E8916000E94DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27A8CBC29E8916000E94DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DE5CB329F08C5B0087D8D5 /* TableViewControllerEasyParking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerEasyParking.swift; sourceTree = "<group>"; };
+		A2DE5CB529F08C720087D8D5 /* TableViewCellEasyParking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellEasyParking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27A8CA829E8915E00E94DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27A8CA229E8915E00E94DFF = {
+			isa = PBXGroup;
+			children = (
+				A27A8CAD29E8915E00E94DFF /* easyParking */,
+				A27A8CAC29E8915E00E94DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27A8CAC29E8915E00E94DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27A8CAB29E8915E00E94DFF /* easyParking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27A8CAD29E8915E00E94DFF /* easyParking */ = {
+			isa = PBXGroup;
+			children = (
+				A27A8CAE29E8915E00E94DFF /* AppDelegate.swift */,
+				A27A8CB029E8915E00E94DFF /* SceneDelegate.swift */,
+				A27A8CB229E8915E00E94DFF /* ViewController.swift */,
+				A27A8CB429E8915E00E94DFF /* Main.storyboard */,
+				A2DE5CB329F08C5B0087D8D5 /* TableViewControllerEasyParking.swift */,
+				A2580CA529F86E8B00225B79 /* NuevoElemento.swift */,
+				A2DE5CB529F08C720087D8D5 /* TableViewCellEasyParking.swift */,
+				A27A8CB729E8916000E94DFF /* Assets.xcassets */,
+				A27A8CB929E8916000E94DFF /* LaunchScreen.storyboard */,
+				A27A8CBC29E8916000E94DFF /* Info.plist */,
+			);
+			path = easyParking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27A8CAA29E8915E00E94DFF /* easyParking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27A8CBF29E8916000E94DFF /* Build configuration list for PBXNativeTarget "easyParking" */;
+			buildPhases = (
+				A27A8CA729E8915E00E94DFF /* Sources */,
+				A27A8CA829E8915E00E94DFF /* Frameworks */,
+				A27A8CA929E8915E00E94DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easyParking;
+			productName = easyParking;
+			productReference = A27A8CAB29E8915E00E94DFF /* easyParking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27A8CA329E8915E00E94DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A27A8CAA29E8915E00E94DFF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A27A8CA629E8915E00E94DFF /* Build configuration list for PBXProject "easyParking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27A8CA229E8915E00E94DFF;
+			productRefGroup = A27A8CAC29E8915E00E94DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27A8CAA29E8915E00E94DFF /* easyParking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27A8CA929E8915E00E94DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27A8CBB29E8916000E94DFF /* LaunchScreen.storyboard in Resources */,
+				A27A8CB829E8916000E94DFF /* Assets.xcassets in Resources */,
+				A27A8CB629E8915E00E94DFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27A8CA729E8915E00E94DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2580CA629F86E8B00225B79 /* NuevoElemento.swift in Sources */,
+				A2DE5CB429F08C5B0087D8D5 /* TableViewControllerEasyParking.swift in Sources */,
+				A27A8CB329E8915E00E94DFF /* ViewController.swift in Sources */,
+				A27A8CAF29E8915E00E94DFF /* AppDelegate.swift in Sources */,
+				A2DE5CB629F08C720087D8D5 /* TableViewCellEasyParking.swift in Sources */,
+				A27A8CB129E8915E00E94DFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A27A8CB429E8915E00E94DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27A8CB529E8915E00E94DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27A8CB929E8916000E94DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27A8CBA29E8916000E94DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27A8CBD29E8916000E94DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27A8CBE29E8916000E94DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27A8CC029E8916000E94DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = easyParking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.easyParking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27A8CC129E8916000E94DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = easyParking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.easyParking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27A8CA629E8915E00E94DFF /* Build configuration list for PBXProject "easyParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27A8CBD29E8916000E94DFF /* Debug */,
+				A27A8CBE29E8916000E94DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27A8CBF29E8916000E94DFF /* Build configuration list for PBXNativeTarget "easyParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27A8CC029E8916000E94DFF /* Debug */,
+				A27A8CC129E8916000E94DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27A8CA329E8915E00E94DFF /* Project object */;
+}
